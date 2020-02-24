@@ -389,5 +389,5 @@ async def mute(ctx, member: discord.Member, amount: int):
 	await ctx.send(f'{member.mention} доигрался и получил мут. Время: ' + str(amount) + 'мин')
 	await asyncio.sleep(minuts)
 	await member.remove_roles(mute_role)
-token = "Njc2NTI4MjUzMzc2MTM1MjE4.XlQ-YQ.mE_1LBu4Pdia60Z7OLvhaMrPbXY"
-Bot.run(token)
+
+Bot.run("Njc2NTI4MjUzMzc2MTM1MjE4.XlQ-YQ.mE_1LBu4Pdia60Z7OLvhaMrPbXY")
